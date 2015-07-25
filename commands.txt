@@ -1,0 +1,10 @@
+/c/ME/Drive/MongoDB_Config
+
+git status
+git add .
+
+// if deleted & renamed files 
+git add -u
+
+git commit -m "dummy message"
+git push -u origin master
