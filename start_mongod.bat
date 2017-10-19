@@ -1,1 +1,0 @@
-call mongod --config mongo.config
