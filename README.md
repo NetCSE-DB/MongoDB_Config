@@ -1,12 +1,12 @@
 ### MongoDB Windows Configuration
 #### MongoDB Directory Structure
 ```sh
-C:\DB\MongoDB
-             - bin
-             - config
-             - data
-             - log
-             VERSION.txt
+C:\DB\MongoDB\
+             - bin\
+             - config\
+             - data\
+             - log\
+             - VERSION.txt
 ```
 #### MongoDB Config File [mongod.cfg]
 ```sh
