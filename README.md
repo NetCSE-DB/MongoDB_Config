@@ -1,7 +1,7 @@
 ### MongoDB Windows Configuration
 #### MongoDB Directory Structure
 ```sh
-C:\DB\MongoDB\
+C:\database\mongodb\
              - bin\
              - config\
              - data\
@@ -12,23 +12,23 @@ C:\DB\MongoDB\
 ```sh
 systemLog:
     destination: file
-    path: C:\DB\MongoDB\log\mongod.log
+    path: C:\database\mongodb\log\mongod.log
 storage:
-    dbPath: C:\DB\MongoDB\data
+    dbPath: C:\database\mongodb\data
 ```
 
 #### MongoDB Service Installation
 ```sh
-"C:\DB\MongoDB\bin\mongod.exe" --config "C:\DB\MongoDB\config\mongod.cfg" --install
+"C:\database\mongodb\bin\mongod.exe" --config "C:\database\mongodb\config\mongod.cfg" --install
 ```
 
 #### Start Stop MongoDB Service
 ```sh
-net start MongoDB
-net stop MongoDB
+net start mongodb
+net stop mongodb
 ```
 
 #### Remove MongoDB Service
 ```sh
-"C:\DB\MongoDB\bin\mongod.exe" --remove
+"C:\database\mongodb\bin\mongod.exe" --remove
 ````
