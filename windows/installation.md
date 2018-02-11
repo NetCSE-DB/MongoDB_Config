@@ -6,6 +6,7 @@ C:\database\mongodb\
              - config\
              - data\
              - log\
+             - snmp\
              - VERSION.txt
 ```
 #### MongoDB Config File [mongod.cfg]
