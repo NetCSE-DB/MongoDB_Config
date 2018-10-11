@@ -27,3 +27,8 @@ auth = true
 ```sh
 mongo -u "admin" -p "nopass" --authenticationDatabase "admin"
 ```
+
+## Or Connect Normally with ` mongo ` command and use authentication
+```sh
+db.auth('admin', 'nopass');
+```
