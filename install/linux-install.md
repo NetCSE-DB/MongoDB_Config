@@ -18,8 +18,9 @@ storage:
     dbPath: /opt/mongodb/data
 ```
 
-#### MongoDB ` mongod ` command alias in ` ~/.bashrc ` File
+#### MongoDB ` mongod ` command alias in ` ~/.bash_aliases ` File
 ```sh
+export PATH="$PATH:/opt/mongodb/bin"
 alias mongod='mongod --config "/opt/mongodb/config/mongod.cfg"'
 ```
 
