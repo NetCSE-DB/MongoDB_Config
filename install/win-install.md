@@ -18,9 +18,22 @@ storage:
     dbPath: C:\database\mongodb\data
 ```
 
+#### OR
+```sh
+systemLog:
+    destination: file
+    path: D:\Database\Mongo\log\mongod.log
+storage:
+    dbPath: D:\Database\Mongo\data
+```
+
 #### MongoDB Service Installation
 ```sh
 "C:\database\mongodb\bin\mongod.exe" --config "C:\database\mongodb\config\mongod.cfg" --install
+```
+#### OR
+```sh
+mongod.exe --config "D:\Database\Mongo\config\mongod.cfg" --install
 ```
 
 #### Start Stop MongoDB Service
